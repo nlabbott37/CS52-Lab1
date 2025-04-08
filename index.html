@@ -1,37 +1,47 @@
-# Auther: Nate Abbott
-# Created 4/4/25
-# CS52 Lab 1
-
-
-<link href="style.css">
-
-<ul>
-    <li>About Us</li>
-    <li>Products</li>
-    <li>Solutions</li>
-    <li>Sustainability</li>
-    <li>Design</li>
-    <li>Resources</li>
-    <li>Contact</li>
-  </ul>
-
+<!DOCTYPE html>
 <html>
 <head>
-  <title>NEXUS RUNNING COMPANY</title>
+    <title>NEXUS RUNNING COMPANY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-# ChatGPT gave me inspiration for structure of code
-<body>
-    <header>
-        <h1>Customized Running Shoes for Your Unique Podiatric Needs</h1>
+<body class="cover">
+    <nav class="desktop">
+        <ul class="flex-list">
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  
+    <nav class="mobile">
+        <ul class="flex-list">
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+            <li><a href="#design">Design</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+  </nav>
+
+    <header class="paragraph-header" >
+        <h1>Finally... Footwear that Fits</h1>
         <p>Shoes are built for the average foot - not your foot - forcing people to compromise on comfort, fit, and sustainability.</p>
-        <nav> Search our Newsletter!</nav>
-        <button>Order Now!</button>
-        <div></div>
-        <input> Enter you Email </header>
+        <p>Scan your foot to see your exact shoe size and width!</p>
+        <button>Scan Now!</button>
+        <p>Join our product waitlist!</p>
+        <input> Enter your Email </header>
     </header>
 
-    <section>
+    <div class="sections-sideways">
+    <section class="paragraph-list">
         <h2>Solution</h2>
         <p>We're disrupting the footwear industry by leveraging additive manufacturing to design shoes with personalized and custom fit, delivering comfort and support made specifically for your body and lifestyle.</p>
     </section>
@@ -45,34 +55,37 @@
         </ul>
     </section>
     
-    <section>
+    <section class="paragraph-list">
         <h2>Trends</h2>
         <p>3D Printing Potential: 21.4% CAGR*</p>
         <p>We predict 3D printing will make up 50% of the $505.7 billion footwear industry by 2040.</p>
         <a href="#">*Statistics</a>
     </section>
 
-    <section>
+    <section class="paragraph-list">
         <h2>Testimonials</h2>
         <p>Samantha a Podiatrist said "feet are good"</p>
         <p>Mark an ultra runner said "these shoes are good"</p>
         <p>Cameron a stay at home parent said "great for lounge wear!"</p>
     </section>
 
-    <section>
+    <section class="paragraph-list">
         <h2>Steps Forward</h2>
         <p>Contact us for options to print your own shoe design!</p>
         <p>Building our own 3D printers to vertically integrate</p>
     </section>
 
-    <section>
+    <section class="paragraph-list">
         <h2>Sustainability Mission</h2>
         <p>Our manufacturing process is 3x more material effective 
             and takes 10x less co2 to produce a pair of shoes!</p>
     </section>
+    </div>
     
     <footer>
         <p>Ready to run with us? Contact us at <a href=#>nexusrunningcompany@gmail.com</a></p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
     </footer>
 </body>
 
